@@ -1,0 +1,85 @@
+# AI Data Analyzer Configuration
+
+# OpenAI API Configuration (for advanced NLP features)
+openai:
+  api_key: ${OPENAI_API_KEY}  # Set this in your environment variables
+  model: "gpt-3.5-turbo"
+  max_tokens: 1500
+
+# Analysis Settings
+analysis:
+  # Statistical significance level
+  alpha: 0.05
+  
+  # Maximum number of features for ML models
+  max_features: 100
+  
+  # Correlation threshold for feature selection
+  correlation_threshold: 0.95
+  
+  # Missing data threshold (drop columns if >90% missing)
+  missing_data_threshold: 0.9
+
+# Visualization Settings
+visualization:
+  # Default chart style
+  style: "seaborn-v0_8-darkgrid"
+  
+  # Color palette
+  palette: "viridis"
+  
+  # Figure size (width, height)
+  figsize: [12, 8]
+  
+  # DPI for saved figures
+  dpi: 300
+
+# Output Settings
+output:
+  # Default output directory
+  directory: "./outputs"
+  
+  # Report format
+  report_format: "html"  # html, pdf, markdown
+  
+  # Include visualizations in reports
+  include_visualizations: true
+  
+  # Save raw analysis results
+  save_raw_results: true
+
+# Data Processing
+data:
+  # Maximum file size in MB
+  max_file_size: 500
+  
+  # Supported file formats
+  supported_formats: ["csv", "xlsx", "xls", "json", "parquet"]
+  
+  # Automatic data type inference
+  auto_dtype: true
+  
+  # Date parsing
+  parse_dates: true
+
+# Machine Learning
+ml:
+  # Train/test split ratio
+  test_size: 0.2
+  
+  # Cross-validation folds
+  cv_folds: 5
+  
+  # Random state for reproducibility
+  random_state: 42
+  
+  # AutoML settings
+  automl:
+    time_limit: 300  # seconds
+    metric: "auto"  # auto-detect best metric
+    
+# Logging
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "./logs/analyzer.log"

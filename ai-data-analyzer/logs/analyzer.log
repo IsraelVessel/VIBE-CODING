@@ -1,0 +1,38 @@
+2025-08-22 03:30:06,715 - ai_data_analyzer - INFO - AI Data Analyzer initialized successfully
+2025-08-22 03:30:06,728 - ai_data_analyzer - INFO - Loading data from: data\demo_business_data.csv
+2025-08-22 03:30:06,805 - data_ingestion - INFO - Successfully loaded CSV with utf-8 encoding
+2025-08-22 03:30:06,875 - data_ingestion - INFO - Data loaded successfully: 500 rows, 12 columns
+2025-08-22 03:30:07,136 - ai_data_analyzer - INFO - Data loaded successfully: (500, 12)
+2025-08-22 03:30:07,225 - ai_data_analyzer - INFO - Starting analysis for prompt: 'Describe this business dataset'
+2025-08-22 03:30:07,258 - prompt_parser - INFO - Parsed intent: descriptive (confidence: 0.33)
+2025-08-22 03:30:07,269 - ai_data_analyzer - INFO - Parsed intent: descriptive (confidence: 0.33)
+2025-08-22 03:30:31,444 - ai_data_analyzer - INFO - Generated 3 visualizations
+2025-08-22 03:30:31,640 - report_generator - INFO - Report generated successfully for descriptive analysis
+2025-08-22 03:30:31,641 - ai_data_analyzer - INFO - Analysis completed successfully
+2025-08-22 03:30:31,643 - ai_data_analyzer - INFO - Starting analysis for prompt: 'Show correlations between customer income, charges, and satisfaction'
+2025-08-22 03:30:31,645 - prompt_parser - INFO - Parsed intent: correlation (confidence: 0.67)
+2025-08-22 03:30:31,645 - ai_data_analyzer - INFO - Parsed intent: correlation (confidence: 0.67)
+2025-08-22 03:30:35,620 - ai_data_analyzer - INFO - Generated 2 visualizations
+2025-08-22 03:30:35,709 - report_generator - INFO - Report generated successfully for correlation analysis
+2025-08-22 03:30:35,710 - ai_data_analyzer - INFO - Analysis completed successfully
+2025-08-22 03:30:35,723 - ai_data_analyzer - INFO - Starting analysis for prompt: 'Find customer segments using income, age, and satisfaction'
+2025-08-22 03:30:35,733 - prompt_parser - INFO - Parsed intent: clustering (confidence: 1.00)
+2025-08-22 03:30:35,750 - ai_data_analyzer - INFO - Parsed intent: clustering (confidence: 1.00)
+2025-08-22 03:30:48,065 - ai_data_analyzer - INFO - Generated 2 visualizations
+2025-08-22 03:30:48,093 - report_generator - INFO - Report generated successfully for clustering analysis
+2025-08-22 03:30:48,094 - ai_data_analyzer - INFO - Analysis completed successfully
+2025-08-22 03:30:48,097 - ai_data_analyzer - INFO - Starting analysis for prompt: 'Predict satisfaction rating using customer characteristics'
+2025-08-22 03:30:48,098 - prompt_parser - INFO - Parsed intent: predictive (confidence: 0.50)
+2025-08-22 03:30:48,099 - ai_data_analyzer - INFO - Parsed intent: predictive (confidence: 0.50)
+2025-08-22 04:17:52,558 - __main__ - INFO - AI Data Analyzer initialized successfully
+2025-08-22 04:17:52,576 - __main__ - INFO - Loading data from: demo_business_data.csv
+2025-08-22 04:17:52,626 - data_ingestion - INFO - Successfully loaded CSV with utf-8 encoding
+2025-08-22 04:17:52,667 - data_ingestion - INFO - Data loaded successfully: 500 rows, 12 columns
+2025-08-22 04:17:52,830 - __main__ - INFO - Data loaded successfully: (500, 12)
+2025-08-22 04:17:52,847 - __main__ - INFO - Starting analysis for prompt: 'describe this data'
+2025-08-22 04:17:52,902 - prompt_parser - INFO - Parsed intent: descriptive (confidence: 0.33)
+2025-08-22 04:17:52,912 - __main__ - INFO - Parsed intent: descriptive (confidence: 0.33)
+2025-08-22 04:18:22,033 - __main__ - INFO - Generated 3 visualizations
+2025-08-22 04:18:22,280 - report_generator - INFO - Report generated successfully for descriptive analysis
+2025-08-22 04:18:22,284 - __main__ - INFO - Analysis completed successfully
+2025-08-22 04:19:10,664 - __main__ - INFO - AI Data Analyzer initialized successfully
